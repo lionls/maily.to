@@ -5,3 +5,5 @@ export * from './blocks/layout';
 export * from './blocks/list';
 export * from './blocks/types';
 export * from './blocks/typography';
+export * from './blocks/headers';
+export * from './blocks/footers';
