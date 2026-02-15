@@ -1,8 +1,8 @@
 import { z } from 'zod';
 import type { Route } from './+types/api.v1.emails.preview';
-import { render } from '@maily-to/render';
+import { render } from '@lionls/render';
 import { serializeZodError } from '~/lib/errors';
-import { allowedFallbackFonts, allowedFontFormats } from '@maily-to/shared';
+import { allowedFallbackFonts, allowedFontFormats } from '@lionls/shared';
 
 export const DEFAULT_EDITOR_THEME_SCHEMA = z.object({
   container: z
