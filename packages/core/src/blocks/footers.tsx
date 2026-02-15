@@ -112,7 +112,7 @@ export const footerCompanySignature: BlockItem = {
         {
           type: 'heading',
           attrs: { textAlign: 'center', level: 3, showIfKey: null },
-          content: [{ type: 'text', text: 'Maily' }],
+          content: [{ type: 'text', text: 'EU Widerrufsbutton' }],
         },
         { type: 'spacer', attrs: { height: 4, showIfKey: null } },
         {
