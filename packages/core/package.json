@@ -1,5 +1,5 @@
 {
-  "name": "@lionls/maily/core",
+  "name": "@lionls/core",
   "type": "module",
   "version": "0.3.7",
   "description": "Powerful editor for creating beautiful, pre-designed, mobile-ready emails.",

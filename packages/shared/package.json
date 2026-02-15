@@ -1,5 +1,5 @@
 {
-  "name": "@lionls/maily/shared",
+  "name": "@lionls/shared",
   "version": "0.0.2",
   "private": false,
   "description": "Shared utilities for Maily",
