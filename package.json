@@ -1,5 +1,5 @@
 {
-  "name": "maily",
+  "name": "@lionls/maily",
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "scripts": {
@@ -27,5 +27,8 @@
     "turbo": "latest",
     "vite": "^6.0.7",
     "vitest": "^3.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
