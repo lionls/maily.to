@@ -27,7 +27,7 @@ export const headerLogoWithTextHorizontal: BlockItem = {
               {
                 type: 'image',
                 attrs: {
-                  src: 'https://maily.to/brand/logo.png',
+                  src: 'https://cdn.euwiderrufsbutton.com/withdrawal_icon_clean.webp',
                   alt: null,
                   title: null,
                   width: '32',
@@ -60,7 +60,7 @@ export const headerLogoWithTextHorizontal: BlockItem = {
                   {
                     type: 'text',
                     marks: [{ type: 'bold' }],
-                    text: 'Weekly Newsletter',
+                    text: 'EU Widerrufsbutton',
                   },
                 ],
               },
@@ -85,7 +85,7 @@ export const headerLogoWithTextVertical: BlockItem = {
         {
           type: 'image',
           attrs: {
-            src: 'https://maily.to/brand/logo.png',
+            src: 'https://cdn.euwiderrufsbutton.com/withdrawal_icon_clean.webp',
             alt: null,
             title: null,
             width: '48',
@@ -101,7 +101,7 @@ export const headerLogoWithTextVertical: BlockItem = {
         {
           type: 'heading',
           attrs: { textAlign: 'center', level: 2, showIfKey: null },
-          content: [{ type: 'text', text: 'Maily' }],
+          content: [{ type: 'text', text: 'EU Widerrufsbutton' }],
         },
       ])
       .run();

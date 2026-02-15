@@ -24,7 +24,7 @@ export const footerCopyrightText: BlockItem = {
           {
             type: 'text',
             marks: [{ type: 'textStyle', attrs: { color: '#AAAAAA' } }],
-            text: `Maily © ${currentYear}. All rights reserved.`,
+            text: `EU Widerrufsbutton © ${currentYear}. All rights reserved.`,
           },
         ],
       })
@@ -46,7 +46,7 @@ export const footerCommunityFeedbackCta: BlockItem = {
         {
           type: 'image',
           attrs: {
-            src: 'https://maily.to/brand/logo.png',
+            src: 'https://cdn.euwiderrufsbutton.com/withdrawal_icon_clean.webp',
             alt: null,
             title: null,
             width: '42',
@@ -96,7 +96,7 @@ export const footerCompanySignature: BlockItem = {
         {
           type: 'image',
           attrs: {
-            src: 'https://maily.to/brand/logo.png',
+            src: 'https://cdn.euwiderrufsbutton.com/withdrawal_icon_clean.webp',
             alt: null,
             title: null,
             width: '48',
@@ -122,7 +122,7 @@ export const footerCompanySignature: BlockItem = {
             {
               type: 'text',
               marks: [{ type: 'textStyle', attrs: { color: '' } }],
-              text: '1234 Example Street, Example, DE 19801, United States',
+              text: 'Musterstr. 1, Musterstadt, 12345, Germany',
             },
             { type: 'hardBreak' },
             {
@@ -131,7 +131,7 @@ export const footerCompanySignature: BlockItem = {
                 {
                   type: 'link',
                   attrs: {
-                    href: 'https://maily.to',
+                    href: 'https://euwiderrufsbutton.com',
                     target: '_blank',
                     rel: 'noopener noreferrer nofollow',
                     class: 'mly:no-underline',
@@ -154,7 +154,7 @@ export const footerCompanySignature: BlockItem = {
                 {
                   type: 'link',
                   attrs: {
-                    href: 'https://maily.to',
+                    href: 'https://euwiderrufsbutton.com',
                     target: '_blank',
                     rel: 'noopener noreferrer nofollow',
                     class: 'mly:no-underline',
@@ -177,7 +177,7 @@ export const footerCompanySignature: BlockItem = {
                 {
                   type: 'link',
                   attrs: {
-                    href: 'https://maily.to',
+                    href: 'https://euwiderrufsbutton.com',
                     target: '_blank',
                     rel: 'noopener noreferrer nofollow',
                     class: 'mly:no-underline',
@@ -188,53 +188,6 @@ export const footerCompanySignature: BlockItem = {
                 { type: 'underline' },
               ],
               text: 'UNSUBSCRIBE',
-            },
-          ],
-        },
-        {
-          type: 'paragraph',
-          attrs: { textAlign: 'center', showIfKey: null },
-          content: [
-            {
-              type: 'inlineImage',
-              attrs: {
-                height: 20,
-                width: 20,
-                src: 'https://cdn.usemaily.com/images/icons/linkedin.png',
-                isSrcVariable: false,
-                alt: null,
-                title: null,
-                externalLink: 'https://www.linkedin.com/in/arikchakma/',
-                isExternalLinkVariable: false,
-              },
-            },
-            { type: 'text', text: '  ' },
-            {
-              type: 'inlineImage',
-              attrs: {
-                height: 20,
-                width: 20,
-                src: 'https://cdn.usemaily.com/images/icons/youtube.png',
-                isSrcVariable: false,
-                alt: null,
-                title: null,
-                externalLink: 'https://www.youtube.com/arikchakma',
-                isExternalLinkVariable: false,
-              },
-            },
-            { type: 'text', text: '  ' },
-            {
-              type: 'inlineImage',
-              attrs: {
-                height: 20,
-                width: 20,
-                src: 'https://cdn.usemaily.com/images/icons/twitter.png',
-                isSrcVariable: false,
-                alt: null,
-                title: null,
-                externalLink: 'https://x.com/imarikchakma',
-                isExternalLinkVariable: false,
-              },
             },
           ],
         },
