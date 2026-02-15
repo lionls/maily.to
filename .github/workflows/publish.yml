@@ -22,6 +22,8 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
+      - name: Install turbo
+        run: npm install -g turbo
       - name: Install dependencies
         run: pnpm install
 
@@ -29,6 +31,6 @@ jobs:
         run: pnpm run build
 
       - name: Publish to GitHub Packages
-        run: pnpm publish
+        run: pnpm publish -r --filter "./packages/*" --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

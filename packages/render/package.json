@@ -1,5 +1,5 @@
 {
-  "name": "@maily-to/render",
+  "name": "@lionls/maily/render",
   "version": "0.2.3",
   "private": false,
   "description": "A transformer that converts Maily content into HTML email templates.",
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@antfu/utils": "^9.2.0",
     "@babel/preset-react": "^7.27.1",
-    "@maily-to/shared": "workspace:*",
+    "@lionls/maily/shared": "workspace:*",
     "@tiptap/core": "^2.11.5",
     "@types/react": "^19.1.10",
     "tsconfig": "workspace:*",
@@ -64,6 +64,7 @@
     "react": "^18.0.0 || ^19.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

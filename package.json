@@ -1,6 +1,7 @@
 {
-  "name": "@lionls/maily",
+  "name": "@maily-to/maily",
   "version": "0.0.1",
+  "private": true,
   "packageManager": "pnpm@9.15.4",
   "scripts": {
     "build": "turbo run build",
