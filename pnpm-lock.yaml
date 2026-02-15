@@ -50,13 +50,13 @@ importers:
 
   apps/web:
     dependencies:
-      '@maily-to/core':
+      '@lionls/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@maily-to/render':
+      '@lionls/render':
         specifier: workspace:*
         version: link:../../packages/render
-      '@maily-to/shared':
+      '@lionls/shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@radix-ui/react-dialog':
@@ -353,7 +353,7 @@ importers:
       '@babel/preset-react':
         specifier: ^7.27.1
         version: 7.27.1(@babel/core@7.26.0)
-      '@maily-to/shared':
+      '@lionls/shared':
         specifier: workspace:*
         version: link:../shared
       '@tiptap/core':
